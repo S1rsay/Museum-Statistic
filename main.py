@@ -5,41 +5,11 @@ import pandas as pd
 
 class Example:
     def __init__(self):
-        self.tb1 = 0
-        self.tb2 = 0
-        self.tb3 = 0
-        self.tb4 = 0
-        self.tb5 = 0
-        self.tb6 = 0
-        self.tb7 = 0
-        self.tb8 = 0
-        self.tb9 = 0
-        self.tb10 = 0
-        self.tb11 = 0
-        self.tb12 = 0
-        self.tb13 = 0
-        self.tb14 = 0
-        self.tb15 = 0
-        self.tb16 = 0
-        self.tb17 = 0
-        self.tb18 = 0
-        self.tb19 = 0
-        self.tb20 = 0
-        self.tb21 = 0
-        self.tb22 = 0
-        self.tb23 = 0
-        self.tb24 = 0
-        self.tb25 = 0
-        self.tb26 = 0
-        self.tb27 = 0
-        self.tb28 = 0
-        self.tb29 = 0
-        self.tb30 = 0
-        self.tb31 = 0
-        self.tb32 = 0
-        self.tb33 = 0
-        self.tb34 = 0
-        self.tb35 = 0
+        self.tb1, self.tb2, self.tb3, self.tb4, self.tb5, self.tb6, self.tb7 = 0, 0, 0, 0, 0, 0, 0 
+        self.tb7, self.tb8, self.tb9, self.tb10, self.tb11, self.tb12, self.tb13 = 0, 0, 0, 0, 0, 0, 0
+        self.tb14, self.tb15, self.tb16, self.tb17, self.tb18, self.tb19, self.tb20 = 0, 0, 0, 0, 0, 0, 0
+        self.tb21, self.tb22, self.tb23, self.tb24, self.tb25, self.tb26, self.tb27 = 0, 0, 0, 0, 0, 0, 0
+        self.tb28, self.tb29, self.tb30, self.tb31, self.tb32, self.tb33, self.tb34, self.tb35 = 0, 0, 0, 0, 0, 0, 0, 0
         master = Tk()
         master.title('Museum Statistic')
         self.info1 = Tk()
